@@ -1,0 +1,33 @@
+html{
+    background-color: grey;
+    color:antiquewhite;
+}
+body{
+    margin:0;
+}
+a{
+    text-decoration: none;
+    color:antiquewhite;
+}
+h1{
+    font-size:400%;
+    text-align:center;
+    color:floralwhite;
+    padding:20px;
+    margin:0px;
+    border-bottom:2px solid antiquewhite;
+}
+ol{
+    border-right:2px solid antiquewhite;
+    width:100px;
+    margin:0;
+    padding:20px;
+}
+#grid{
+    display:grid;
+    grid-template-columns:150px 1fr;
+}
+li{
+    list-style-type: none;
+    padding:10px
+}
